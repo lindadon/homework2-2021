@@ -22,8 +22,15 @@ div {
 
 #yellow {
     background-color: #ffff00;
-    color:#000000;
     text-align: right;
+}
+
+#yellow h2, #yellow p {
+    color:#000000;
+}
+
+#yellow h2 {
+    text-shadow:4px 4px 2px #808080;
 }
 
 #green {
@@ -37,7 +44,7 @@ h1 {
     padding: 10px;
 }
 
-h2 {
+div h2 {
     font-size: 32px;
     text-shadow: 4px 4px 2px #808080;
 }
